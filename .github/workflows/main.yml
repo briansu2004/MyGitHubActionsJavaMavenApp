@@ -47,3 +47,13 @@ jobs:
         with:
           name: github-actions-artifact
           path: staging
+
+      - name: Step 6 - List the current directory
+        run: ls -a
+
+      - name: Step 7 - What is in the target folder?
+        run: |
+          cd target
+          ls -a
+
+          
